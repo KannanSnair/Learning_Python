@@ -1,0 +1,25 @@
+{
+   "configFileLocation": "nstf/config/be_nstfprocessor.properties",
+   "bucketName": "ews-de-vs-artifacts-dev",
+   "jarLocation": "/home/airflow/gcs/dags/dataflow_artifacts/ews-de-nstf-billing-extract-processor/1.0.0.0/target/ews-de-nstf-processor-1.0.0.0.jar",
+   "labels": {
+      "cmdb_bus_svc_id": "asve0034728",
+      "cost_center": "3315",
+      "division": "0225",
+      "data_class": "5",
+      "team": "de"
+   },
+   "project": "ews-de-de-api-dev-npe-b873",
+   "region": "us-east1",
+   "workerZone": "us-east1-b",
+   "serviceAccount": "ews-de-vs-pipeline-dev@ews-de-de-api-dev-npe-b873.iam.gserviceaccount.com",
+   "subnetwork": "https://www.googleapis.com/compute/v1/projects/efx-gcp-ews-svpc-npe-6787/regions/us-east1/subnetworks/ews-ss-de-npe-net11-6",
+   "stagingLocation": "gs://ews-de-billingextract-cnfg-dev/staging",
+   "tempLocation": "gs://ews-de-billingextract-cnfg-dev/temp",
+   "usePublicIps": "false",
+   "workerMachineType": "n1-standard-8",
+   "numWorkers": "16",
+   "numberOfWorkerHarnessThreads": "16",
+   "bigquery_conn_id": "bqconn-ews-ss-de-npe-1c88",
+   "autoscalingAlgorithm": "NONE"
+}
